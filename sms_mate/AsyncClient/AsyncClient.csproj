@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C2EE5F50-8878-44FF-A9E9-D009D8B6F867}</ProjectGuid>
+    <ProjectGuid>{59972C06-4D83-48A4-8B7A-6B57ABA0C2A7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>sms_mate</RootNamespace>
-    <AssemblyName>sms_mate</AssemblyName>
+    <RootNamespace>AsyncClient</RootNamespace>
+    <AssemblyName>AsyncClient</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AsynchronousSocketListener.cs" />
+    <Compile Include="AsynchronousClient.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

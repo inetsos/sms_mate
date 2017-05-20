@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sms_mate", "sms_mate\sms_mate.csproj", "{C2EE5F50-8878-44FF-A9E9-D009D8B6F867}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncClient", "AsyncClient\AsyncClient.csproj", "{59972C06-4D83-48A4-8B7A-6B57ABA0C2A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C2EE5F50-8878-44FF-A9E9-D009D8B6F867}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2EE5F50-8878-44FF-A9E9-D009D8B6F867}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2EE5F50-8878-44FF-A9E9-D009D8B6F867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59972C06-4D83-48A4-8B7A-6B57ABA0C2A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59972C06-4D83-48A4-8B7A-6B57ABA0C2A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59972C06-4D83-48A4-8B7A-6B57ABA0C2A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59972C06-4D83-48A4-8B7A-6B57ABA0C2A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
